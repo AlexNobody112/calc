@@ -1,0 +1,19 @@
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container-types {
+    display: flex;
+}
+
+.button {
+    display: inline-block;
+    padding: 1rem;
+} 
+
+.operation button {
+    display: block;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="input">
+            <input id="output" type="text" value="" multiple size="20">
+            <!-- <textarea name="Calculator" id="output" cols="30" rows="10"></textarea> -->
+        </div>
+            
+        <div class="container-types"> 
+            <div class="types">
+
+                <div>
+                    <button onclick="num1()" class="button button-one">1</button>
+                    <button onclick="num2()" class="button button-two">2</button>
+                    <button onclick="num3()" class="button button-three">3</button>
+                </div>   
+                <div> 
+                    <button onclick="num4()" class="button button-four">4</button>
+                    <button onclick="num5()" class="button button-five">5</button>
+                    <button onclick="num6()" class="button button-six">6</button>
+                </div>
+                <div>    
+                    <button onclick="num7()" class="button button-seven">7</button>
+                    <button onclick="num8()" class="button button-eight">8</button>
+                    <button onclick="num9()" class="button button-nine">9</button>
+                </div>    
+                <div>
+                    <button onclick="num0()" class="button button-zero">0</button>
+                    <button onclick="dot()" class="button button-comma">.</button>
+                </div>
+
+            </div>
+
+
+            <div class="operation">
+
+                <button onclick="equal()" class="button button-equal">=</button>
+                <button onclick="mult()" class="button button-multiplied">*</button>
+                <button onclick="divide()" class="button button-divide ">/</button>
+                <button onclick="plus()" class="button button-plus">+</button>
+                <button onclick="minus()" class="button button-minus">-</button>
+        
+            </div>
+
+
+        </div>
+    </div>
+    
+    
+    
+    
+    <script src="buttons.js " >
+    </script>
+
+<script src="equal.js" >
+</script>
+</body>
+</html>
